@@ -1,0 +1,83 @@
+.hangman {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hangman-left {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hangman-left>img {
+    width: 30%;
+}
+
+.hangman-right {
+    width: 70%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.hangman-right-head {
+    font-size: 5rem;
+    margin: 5rem 0 20rem 0;
+    font-weight: 500;
+
+}
+
+.hangman-dash {
+    font-size: 3.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+
+    /* text-transform: capitalize; */
+}
+
+.hangman-message {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 3rem 0 5rem 0;
+}
+
+.hangman-result {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.alphabets {
+    background-color: #007bff;
+    color: white;
+    margin: 1.2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 2rem 3rem;
+    border: none;
+    color: white;
+}
+
+.disabled-button {
+    background-color: gray;
+}
+
+
+
+.rest-button {
+    margin-bottom: 1.5rem;
+    border-radius: 50px;
+    background-color: #e74c3c;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.6rem;
+    border: none;
+    color: white;
+    min-width: 15rem;
+    margin: 2rem;
+}
