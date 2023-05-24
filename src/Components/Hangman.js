@@ -2,18 +2,18 @@ import React, { useState } from 'react';
 import './Hangman.css';
 import Keyboard from './Keyboard';
 
-import step0 from "./images/7.png";
-import step1 from "./images/6.png";
-import step2 from "./images/5.png";
-import step3 from "./images/4.png";
-import step4 from "./images/3.png";
-import step5 from "./images/2.png";
-import step6 from "./images/1.png";
+import image7 from "./images/7.png";
+import image6 from "./images/6.png";
+import image5 from "./images/5.png";
+import image4 from "./images/4.png";
+import image3 from "./images/3.png";
+import image2 from "./images/2.png";
+import image1 from "./images/1.png";
 
 
 const Hangman = () => {
     const maxWrong = 6;
-    const images = [step0, step1, step2, step3, step4, step5, step6];
+    const images = [image7, image6, image5, image4, image3, image2, image1];
 
     const [mistake, setMistake] = useState(0);
     const [guessed, setGuessed] = useState(new Set([]));
